@@ -1,0 +1,24 @@
+{
+  "name": "aigle-royal-smartfarm-backend",
+  "version": "1.0.0",
+  "description": "API REST fullstack agronomique avec diagnostic IA pour L'AIGLE ROYAL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["node", "express", "postgresql", "gemini-ai", "agritech"],
+  "author": "Prosper Dossou",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
