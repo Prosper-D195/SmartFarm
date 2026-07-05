@@ -7,11 +7,18 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["node", "express", "postgresql", "gemini-ai", "agritech"],
+  "keywords": [
+    "node",
+    "express",
+    "postgresql",
+    "gemini-ai",
+    "agritech"
+  ],
   "author": "Prosper Dossou",
   "license": "ISC",
   "dependencies": {
-    "@google/generative-ai": "^0.2.1",
+    "@google/genai": "^2.10.0",
+    "@google/generative-ai": "^0.24.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
